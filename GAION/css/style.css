@@ -304,8 +304,11 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
 	background: url(../img/slide.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #intro.intro {
